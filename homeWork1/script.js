@@ -61,3 +61,16 @@ const rootElement = document.getElementById('root');
 const targetElement = findElementByClass(rootElement, 'my-class');
 console.log(targetElement);
 
+
+//function findElementByClass(rootEl, classEl) {
+//   if (rootEl.classList.contains(classEl)) {
+//     return rootEl;
+//   }
+//   for (const child of rootEl.children) { // тут const всегда в таких циклах for of / for in.
+//     const findedElem = findElementByClass(child, classEl);
+//     if (findedElem) {
+//       return findedElem;
+//     }
+//   }
+//   return null;
+// }
